@@ -10,6 +10,7 @@
     "test": "jest",
     "test:ci": "jest --coverage --silent --ci",
     "prepare": "husky install",
+    "prettier": "prettier * --write --ignore-unknown",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
